@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 22px;
+}
+
+.content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background: #c2c2c2;
+  line-height: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+ul li::before {
+  content: "\261E";
+  color: red;
+  margin-right: 0.5em;
+}
+
+.btn {
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.out {
+  font-size: 20px;
+  color: rgb(238, 54, 54);
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
